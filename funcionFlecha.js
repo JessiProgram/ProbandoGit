@@ -10,6 +10,7 @@ const b = () => {
 
 const saludar = () => "Hola"
 
+//ejecutamos
 console.log(saludar())
 
 //retornamos un objeto, ponemos parentesis
