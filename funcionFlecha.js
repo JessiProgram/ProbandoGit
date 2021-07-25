@@ -14,11 +14,16 @@ const saludar = () => "Hola"
 console.log(saludar())
 
 //retornamos un objeto, ponemos parentesis
-const objeto = () => ({nombre: 'Jessi'})
+const objeto = () => ({
+    nombre: 'Jessi'
+})
 console.log(objeto())
 
 //definiciones de funciones flecha
-const unParametro = nombre => ({nombre})
+const unParametro = (nombre) => {
+    nombre
+}
+
 const unParametro2 = nombre => console.log("No confundir, soy una funcion flecha " + nombre)
 console.log(unParametro("Jessi"))
 unParametro2("Guille")
